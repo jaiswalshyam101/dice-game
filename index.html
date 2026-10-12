@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daic Game</title>
+
+    <style>
+     * {
+          transition: all ease-in-out 0.3s;
+     }
+    </style>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+
+</head>
+<body>
+
+
+    <div id="container" class="h-screen bg-black p-8  items-center justify-center">
+          <h1 class="text-5xl text-white font-bold my-6 text-center ">Play Games</h1>
+
+         <div class="p-6 bg-white rounded-md">
+               
+              <div class="flex text-black space-x-10 text-9xl items-center justify-center">
+
+               <i id="dice-one" class="fa-solid fa-dice-five"></i>
+               <i id="dice-two" class="fa-solid fa-dice-four"></i>
+
+              </div>
+
+              
+              <button class="my-4 bg-black text-white p-4 w-full rounded-md text-xl font-bold hover:bg-gray-800 cursor-pointer">Roll Dice</button>
+         </div>   
+
+    </div>
+    
+
+
+
+<script src="main.js"></script>
+</body>
+</html>
